@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Amazing Tic Tac Toe</title>
+    <meta name="description" content="Online Tic Tac Toe board game for two players" />
+    <meta name="keywords" content="tic tac toe, noughts and crosses, Xs Os, game, online, multiplayer" />
+    <meta name="author" content="Pawel Modzelewski alias Last Dunadan" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    
+      <!--HEADER, TITLE AND TOOLBOX-->
+      <section id="wraper" class="container">
+        
+        <div id="header" class="row">
+          <div id="options-toolbox" class="col-4 col-sm-4">
+            <table>
+              <tr>
+                <td>
+                  <img id="music" src="icon-music.png">
+                </td>
+                <td>
+                  <img id="options" src="icon-options.png">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Music On/Off
+                </td>
+                <td>
+                  Options
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="title-field" class="col-8 col-sm-8">
+            <h1>Amazing Tic Tac Toe</h1>
+          </div>
+        </div>
+        <div id="game-container" class="row">
+          <div id="player-pink-col" class="col-xs-0 col-sm-0 col-md-3">
+            <div class="col-space"></div>
+            <div class="score-pink text-center">
+              <h4 class="score-label">SCORE</h4>
+              <p id="pink-player-score" class="score-font">0</p>
+            </div>
+            <img class="label-pink" src="label-player-pink.png">
+          </div>
+          <div id="board-col" class="col-0 col-sm-12 col-md-6">
+            <div class="cell-wrapper">
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+            </div>
+          </div>
+          <div id="player-blue-col" class="col-xs-0 col-sm-0 col-md-3">
+            <div class="col-space"></div>
+            <div class="score-blue text-center">
+              <h4 class="score-label">SCORE</h4>
+              <p id="blue-player-score" class="score-font">0</p>
+            </div>
+            <img class="label-blue" src="label-player-blue.png">
+          </div>
+        </div>
+        
+        <div id="tablet-player" class="row">
+          <div class="col-xs-6 text-center">
+            <div class="score-pink text-center">
+              <h4 class="score-label">SCORE</h4>
+              <p id="pink-player-score" class="score-font">0</p>
+            </div>
+            <img class="label-pink" src="label-player-pink.png">
+          </div>
+          <div class="col-xs-6 text-center">
+            <div class="score-blue text-center">
+              <h4 class="score-label">SCORE</h4>
+              <p id="blue-player-score" class="score-font">0</p>
+            </div>
+            <img class="label-blue" src="label-player-blue.png">
+          </div>
+        </div>
+        
+        <div id="mobile-player" class="row">
+          <div class="col-xs-12 col-sm-6 text-center">
+            <div class="score-pink text-center">
+              <h4 class="score-label">SCORE</h4>
+              <p id="pink-player-score" class="score-font">0</p>
+            </div>
+            <div class="score-blue text-center">
+              <h4 class="score-label">SCORE</h4>
+              <p id="blue-player-score" class="score-font">0</p>
+            </div>
+          </div>
+        </div>
+        
+        <div id="footer" class="row">
+          <div class="col-xs-12 text-center">
+            <p>
+              Designed and Coded by Pawel Modzelewski<br />
+              Released under License <a href="https://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPLv3</a>
+            </p>
+          </div>
+        </div>
+        
+      </section>
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+  
+</html>
