@@ -1,5 +1,7 @@
 /*global document*/
 /*global console*/
+/*global alert*/
+/*global $*/
 
 document.addEventListener('DOMContentLoaded', function () {
   'use strict';
@@ -12,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     currentPlayer,
     emptyFields;
 
+  //Checking for winners or a draw
   function winnerCheck() {
     var cells = document.querySelectorAll('.cell-wrapper > div'),
       //winning rows
@@ -24,38 +27,31 @@ document.addEventListener('DOMContentLoaded', function () {
       colThree = cells[2].className + cells[5].className + cells[8].className,
       //winning diagonals
       diagOne = cells[0].className + cells[4].className + cells[8].className,
-      diagTwo = cells[6].className + cells[4].className + cells[2].className;
+      diagTwo = cells[6].className + cells[4].className + cells[2].className,
 
-    if (rowOne === 'ososos' ||
-        rowTwo === 'ososos' ||
-        rowThree === 'ososos' ||
-        colOne === 'ososos' ||
-        colTwo === 'ososos' ||
-        colThree === 'ososos' ||
-        diagOne === 'ososos' ||
-        diagTwo === 'ososos') {
-      alert("Pink Circle Wins!");
-      return;
+      boardCheck = [
+        rowOne, rowTwo, rowThree,
+        colOne, colTwo, colThree,
+        diagOne, diagTwo
+      ];
+
+    //Checking winning scenarios or calling a tie
+    if (boardCheck.includes('ososos')) {
+      setTimeout(function () {
+        alert("Pink Circle Wins!");
+        gameStart();
+      }, 100);
+    } else if (boardCheck.includes('xsxsxs')) {
+      setTimeout(function () {
+        alert("Blue Cross Wins!");
+        gameStart();
+      }, 100);
+    } else if (emptyFields === 0) {
+      setTimeout(function () {
+        alert("Tie!");
+        gameStart();
+      }, 100);
     }
-
-    if (rowOne === 'xsxsxs' ||
-        rowTwo === 'xsxsxs' ||
-        rowThree === 'xsxsxs' ||
-        colOne === 'xsxsxs' ||
-        colTwo === 'xsxsxs' ||
-        colThree === 'xsxsxs' ||
-        diagOne === 'xsxsxs' ||
-        diagTwo === 'xsxsxs') {
-      alert("Blue Cross Wins!");
-      return;
-    }
-
-    //Checking for last cell to fill up
-    console.log('Cells left: ' + emptyFields);
-    if (emptyFields === 0) {
-      alert("Tie!");
-    }
-
   }
 
   //Putting Xs and Os for each player
@@ -82,6 +78,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   }
 
+  //Reset Board after each game
+  function resetBoard() {
+    var cells = document.querySelectorAll('.cell-wrapper > div');
+    $(cells).removeClass('xs');
+    $(cells).removeClass('os');
+    $(cells).addClass('cell');
+  }
+
   //Run game and conditions
   function gameStart() {
     var cells = document.querySelectorAll('.cell-wrapper > div');
@@ -89,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
     emptyFields = 9;
     currentPlayer = 'pinkPlayer';
 
+    resetBoard();
     cells.forEach(function (cell) {
       cell.addEventListener('click', cellClickHandler);
     });

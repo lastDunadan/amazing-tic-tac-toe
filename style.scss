@@ -1,3 +1,6 @@
+$os-pink: #FF4081;
+$xs-blue: #00BCD4;
+
 @font-face {
   font-family: chalkduster;
   src: local(chalkduster) url("chalkduster.ttf") format("ttf");
@@ -98,6 +101,25 @@ body {
             font-size: 16px;
           }
         }
+      }
+    }
+    #round-info {
+      text-align: center;
+      font-size: 38px;
+      line-height: 2;
+      opacity: 0.0;
+      display: none;
+      #info-line {
+        border-radius:25px;
+        width: 300px;
+        background-color: $os-pink;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        -webkit-box-shadow: -12px 12px 0px 4px rgba(33,33,33,1);
+        -moz-box-shadow: -12px 12px 0px 4px rgba(33,33,33,1);
+        box-shadow: -12px 12px 0px 4px rgba(33,33,33,1);
       }
     }
     #game-container {

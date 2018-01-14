@@ -2,19 +2,19 @@
   font-family: chalkduster;
   src: local(chalkduster) url("chalkduster.ttf") format("ttf"); }
 
-/* line 6, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+/* line 9, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
 body {
   color: #ffffff;
   background-color: #212121;
   font-family: chalkduster; }
-  /* line 10, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+  /* line 13, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
   body #wraper {
     background-image: url(bg-zebra.png);
     background-repeat: repeat; }
-    /* line 13, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 16, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     body #wraper #header {
       height: 160px; }
-      /* line 15, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 18, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #header #options-toolbox {
         text-align: center;
         height: 160px;
@@ -22,42 +22,42 @@ body {
         background-size: contain;
         background-repeat: no-repeat; }
         @media (max-width: 767px) {
-          /* line 15, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 18, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #header #options-toolbox {
             display: none; } }
-        /* line 24, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 27, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #header #options-toolbox table {
           margin: 20px 0px 0px 60px; }
           @media (max-width: 1200px) {
-            /* line 24, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 27, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #options-toolbox table {
               margin: 15px 0px 0px 45px; } }
           @media (max-width: 991px) {
-            /* line 24, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 27, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #options-toolbox table {
               margin: 8px 0px 0px 30px; } }
-          /* line 33, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 36, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #header #options-toolbox table tr td {
             padding: 5px 15px;
             cursor: pointer; }
             @media (max-width: 1200px) {
-              /* line 33, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 36, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #header #options-toolbox table tr td {
                 font-size: 11px; } }
             @media (max-width: 991px) {
-              /* line 33, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 36, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #header #options-toolbox table tr td {
                 font-size: 8px; } }
-            /* line 42, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 45, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #options-toolbox table tr td img {
               width: 40px;
               height: auto; }
               @media (max-width: 991px) {
-                /* line 42, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+                /* line 45, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
                 body #wraper #header #options-toolbox table tr td img {
                   width: 30px;
                   height: auto; } }
-      /* line 54, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 57, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #header #title-field {
         text-align: right;
         height: 160px;
@@ -65,81 +65,100 @@ body {
         background-size: contain;
         background-repeat: no-repeat; }
         @media (max-width: 767px) {
-          /* line 54, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 57, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #header #title-field {
             padding-top: 20px; } }
         @media (max-width: 550px) {
-          /* line 54, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 57, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #header #title-field {
             padding-top: 15px; } }
         @media (max-width: 390px) {
-          /* line 54, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 57, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #header #title-field {
             padding-top: 5px; } }
-        /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #header #title-field h1 {
           font-size: 44px;
           text-transform: uppercase;
           margin: 30px 20px 0px 0px; }
           @media (max-width: 1200px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               font-size: 36px;
               margin: 25px 20px 0px 0px; } }
           @media (max-width: 991px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               font-size: 27px;
               margin: 20px 20px 0px 0px; } }
           @media (max-width: 767px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               margin: 10px 20px 0px 0px;
               font-size: 40px; } }
           @media (max-width: 700px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               font-size: 35px; } }
           @media (max-width: 630px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               font-size: 30px; } }
           @media (max-width: 550px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               font-size: 25px; } }
           @media (max-width: 470px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               font-size: 20px; } }
           @media (max-width: 390px) {
-            /* line 69, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 72, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #header #title-field h1 {
               font-size: 16px; } }
-    /* line 103, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 106, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    body #wraper #round-info {
+      text-align: center;
+      font-size: 38px;
+      line-height: 2;
+      opacity: 0.0;
+      display: none; }
+      /* line 112, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      body #wraper #round-info #info-line {
+        border-radius: 25px;
+        width: 300px;
+        background-color: #FF4081;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        -webkit-box-shadow: -12px 12px 0px 4px #212121;
+        -moz-box-shadow: -12px 12px 0px 4px #212121;
+        box-shadow: -12px 12px 0px 4px #212121; }
+    /* line 125, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     body #wraper #game-container {
       height: 700px; }
       @media (max-width: 991px) {
-        /* line 103, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 125, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container {
           height: 880px; } }
       @media (max-width: 630px) {
-        /* line 103, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 125, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container {
           height: 750px; } }
       @media (max-width: 520px) {
-        /* line 103, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 125, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container {
           height: 600px; } }
       @media (max-width: 440px) {
-        /* line 103, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 125, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container {
           height: 500px; } }
       @media (max-width: 380px) {
-        /* line 103, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 125, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container {
           height: 400px; } }
-      /* line 120, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #game-container #board-col {
         height: 700px;
         background-image: url(board.png);
@@ -148,45 +167,45 @@ body {
         margin: 0 auto;
         font-size: 0; }
         @media (max-width: 991px) {
-          /* line 120, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #board-col {
             height: 920px; } }
         @media (max-width: 630px) {
-          /* line 120, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #board-col {
             height: 750px; } }
         @media (max-width: 520px) {
-          /* line 120, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #board-col {
             height: 600px; } }
         @media (max-width: 440px) {
-          /* line 120, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #board-col {
             height: 500px; } }
         @media (max-width: 380px) {
-          /* line 120, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #board-col {
             height: 400px; } }
-        /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 164, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container #board-col .cell-wrapper {
           padding-top: 98px;
           padding-left: 37px; }
           @media (max-width: 991px) {
-            /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 164, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #game-container #board-col .cell-wrapper {
               padding-top: 124px;
               padding-left: 60px; } }
           @media (max-width: 460px) {
-            /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 164, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #game-container #board-col .cell-wrapper {
               padding-top: 100px;
               padding-left: 60px; } }
           @media (max-width: 350px) {
-            /* line 142, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+            /* line 164, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
             body #wraper #game-container #board-col .cell-wrapper {
               padding-top: 80px;
               padding-left: 40px; } }
-          /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #board-col .cell-wrapper .cell {
             width: 160px;
             height: 160px;
@@ -196,62 +215,62 @@ body {
             display: inline-block;
             cursor: pointer; }
             @media (max-width: 1199px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 130px;
                 height: 130px; } }
             @media (max-width: 991px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 200px;
                 height: 200px; } }
             @media (max-width: 720px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 170px;
                 height: 170px; } }
             @media (max-width: 620px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 150px;
                 height: 150px; } }
             @media (max-width: 580px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 130px;
                 height: 130px; } }
             @media (max-width: 510px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 110px;
                 height: 110px; } }
             @media (max-width: 440px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 90px;
                 height: 90px; } }
             @media (max-width: 380px) {
-              /* line 157, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+              /* line 179, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
               body #wraper #game-container #board-col .cell-wrapper .cell {
                 width: 75px;
                 height: 75px; } }
-      /* line 200, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 222, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #game-container .col-space {
         width: 100%;
         height: 300px; }
-      /* line 204, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 226, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #game-container .score-font {
         font-size: 58px; }
-      /* line 207, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 229, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #game-container #player-pink-col {
         height: 700px; }
         @media (max-width: 991px) {
-          /* line 207, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 229, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #player-pink-col {
             width: 0px;
             height: 0px;
             display: none; } }
-        /* line 214, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 236, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container #player-pink-col .score-pink {
           width: 100%;
           height: 250px;
@@ -260,20 +279,20 @@ body {
           background-repeat: no-repeat;
           background-position: center;
           padding-top: 50px; }
-        /* line 223, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 245, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container #player-pink-col .label-pink {
           width: 100%;
           height: auto; }
-      /* line 228, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 250, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #game-container #player-blue-col {
         height: 700px; }
         @media (max-width: 991px) {
-          /* line 228, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+          /* line 250, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
           body #wraper #game-container #player-blue-col {
             width: 0px;
             height: 0px;
             display: none; } }
-        /* line 235, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 257, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container #player-blue-col .score-blue {
           width: 100%;
           height: 250px;
@@ -282,22 +301,22 @@ body {
           background-repeat: no-repeat;
           background-position: center;
           padding-top: 50px; }
-        /* line 244, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 266, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #game-container #player-blue-col .label-blue {
           width: 100%;
           height: auto; }
-    /* line 251, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 273, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     body #wraper #tablet-player {
       display: none; }
       @media (max-width: 991px) {
-        /* line 251, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 273, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #tablet-player {
           display: block; } }
       @media (max-width: 620px) {
-        /* line 251, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 273, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #tablet-player {
           display: none; } }
-      /* line 259, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 281, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #tablet-player .score-pink {
         width: 100%;
         height: 250px;
@@ -306,14 +325,14 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         padding-top: 50px; }
-        /* line 267, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 289, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #tablet-player .score-pink .score-font {
           font-size: 58px; }
-      /* line 271, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 293, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #tablet-player .label-pink {
         width: 100%;
         height: auto; }
-      /* line 275, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 297, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #tablet-player .score-blue {
         width: 100%;
         height: 250px;
@@ -322,21 +341,21 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         padding-top: 50px; }
-        /* line 283, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 305, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #tablet-player .score-blue .score-font {
           font-size: 58px; }
-      /* line 287, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 309, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #tablet-player .label-blue {
         width: 100%;
         height: auto; }
-    /* line 293, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 315, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     body #wraper #mobile-player {
       display: none; }
       @media (max-width: 620px) {
-        /* line 293, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 315, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #mobile-player {
           display: block; } }
-      /* line 298, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 320, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #mobile-player .score-pink {
         width: 100%;
         height: 250px;
@@ -345,10 +364,10 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         padding-top: 50px; }
-        /* line 306, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 328, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #mobile-player .score-pink .score-font {
           font-size: 58px; }
-      /* line 310, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 332, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #mobile-player .score-blue {
         width: 100%;
         height: 250px;
@@ -357,23 +376,23 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         padding-top: 50px; }
-        /* line 318, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 340, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #mobile-player .score-blue .score-font {
           font-size: 58px; }
-    /* line 324, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 346, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     body #wraper #footer {
       margin-top: 60px;
       background-color: #212121; }
-      /* line 327, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+      /* line 349, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
       body #wraper #footer p {
         margin: 20px;
         font-family: sans-serif;
         font-size: 10px; }
-        /* line 331, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+        /* line 353, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
         body #wraper #footer p a {
           color: deeppink; }
 
-/* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+/* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
 .xs {
   width: 160px;
   height: 160px;
@@ -383,47 +402,47 @@ body {
   display: inline-block;
   cursor: not-allowed; }
   @media (max-width: 1199px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 130px;
       height: 130px; } }
   @media (max-width: 991px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 200px;
       height: 200px; } }
   @media (max-width: 720px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 170px;
       height: 170px; } }
   @media (max-width: 620px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 150px;
       height: 150px; } }
   @media (max-width: 580px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 130px;
       height: 130px; } }
   @media (max-width: 510px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 110px;
       height: 110px; } }
   @media (max-width: 440px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 90px;
       height: 90px; } }
   @media (max-width: 380px) {
-    /* line 339, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 361, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .xs {
       width: 75px;
       height: 75px; } }
 
-/* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+/* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
 .os {
   width: 160px;
   height: 160px;
@@ -433,42 +452,42 @@ body {
   display: inline-block;
   cursor: not-allowed; }
   @media (max-width: 1199px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 130px;
       height: 130px; } }
   @media (max-width: 991px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 200px;
       height: 200px; } }
   @media (max-width: 720px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 170px;
       height: 170px; } }
   @media (max-width: 620px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 150px;
       height: 150px; } }
   @media (max-width: 580px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 130px;
       height: 130px; } }
   @media (max-width: 510px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 110px;
       height: 110px; } }
   @media (max-width: 440px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 90px;
       height: 90px; } }
   @media (max-width: 380px) {
-    /* line 381, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
+    /* line 403, /home/last_dunadan/Dokumenty/amazing-tic-tac-toe/style.scss */
     .os {
       width: 75px;
       height: 75px; } }
